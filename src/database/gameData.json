@@ -1,0 +1,20 @@
+{
+  "gameData": {
+    "baldy_dev": {
+      "playerName": "baldy_dev",
+      "principalMoney": 300,
+      "HTMLAmount": 10,
+      "HTMLUnlocked": true,
+      "CSSAmount": 5,
+      "CSSUnlocked": true,
+      "JSAmount": 0,
+      "JSUnlocked": false,
+      "NodeAmount": 0,
+      "NodeUnlocked": false,
+      "JavaAmount": 0,
+      "JavaUnlocked": false,
+      "PHPAmount": 0,
+      "PHPUnlocked": false
+    }
+  }
+}

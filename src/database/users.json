@@ -1,0 +1,17 @@
+{
+  "users": {
+    "baldy_dev": {
+      "username": "baldy_dev",
+      "email": "baldydev@gmail.com",
+      "password": "Calvito_33"
+    },
+    "sorprendida": {
+      "username": "sorprendida",
+      "email": "sorprendida23",
+      "password": "La_sorpre25",
+      "id": "5418ce92-f1d5-4391-b091-5b14f161cc8f",
+      "registerDate": "7/2/2023",
+      "modDate": "7/2/2023"
+    }
+  }
+}
