@@ -14,7 +14,7 @@ const createOneUserGameData = (req, res, next) => {
   const { body } = req;
   console.log(body);
 
-  if (!body.playerName || !body.principalMoney 
+  if (!body.playerName || !body.hasOwnProperty('principalMoney') 
     || !body.hasOwnProperty('HTMLAmount') || !body.hasOwnProperty('HTMLUnlocked') 
     || !body.hasOwnProperty('CSSAmount') || !body.hasOwnProperty('CSSUnlocked') 
     || !body.hasOwnProperty('JSAmount') || !body.hasOwnProperty('JSUnlocked') 

@@ -10,25 +10,12 @@ const getOneUser = (name) => {
     return oneUser
 }
 
-const insertUser = (user) => {
-    //meto el usuario en el objeto users
-    const name = user.username
-    data.users[name] = user
 
-    //Escribo el fichero con esos nuevos data
-    fs.writeFileSync(
-      "./src/database/users.json",
-      JSON.stringify(data, null, 2),
-      "utf8"
-    );
-
-    return getOneUser(name)
-}
 const createOneUser = (newUser) =>{
-    if (data["users"][`${newUser.username.replace(" ","").toLowerCase()}`]){
+    if (data["users"][`${newUser.username.replace(" ","")}`]){
         return false;
     }
-    let username = newUser.username.replace(" ","").toLowerCase();
+    let username = newUser.username.replace(" ","");
     data["users"][username] = newUser
 
     fs.writeFileSync("./src/database/users.json", JSON.stringify(data,null,2), "utf8")
@@ -61,7 +48,7 @@ const deleteOneUser = (name) => {
 module.exports = {
     getAllUsers,
     getOneUser,
-    insertUser,
+    // insertUser,
     createOneUser,
     updateOneUser,
     deleteOneUser,

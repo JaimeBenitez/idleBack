@@ -2,7 +2,7 @@ const usersServices = require("../services/usersServices");
 
 //  /api/v1/users
 const getAllUsers = (req, res, next) => {
-  console.log("entra")
+  
   const allUsers = usersServices.getAllUsers(); 
   res.send(allUsers);
   

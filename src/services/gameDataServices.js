@@ -9,7 +9,7 @@ const getAllUsersGameData = () => {
 
 const createOneUserGameData = (newUserGameData) => {
   // Llamo al Modelo para realizar esa interacción con la BDD
-  const insertedUser = gameDataModel.insertUserGameData(newUserGameData)
+  const insertedUser = gameDataModel.createOneUserGameData(newUserGameData)
   
   if(!insertedUser) return false
   return insertedUser

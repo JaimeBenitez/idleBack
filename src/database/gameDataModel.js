@@ -10,33 +10,20 @@ const getOneUserGameData = (name) => {
     return oneUser
 }
 
-const insertUserGameData = (user) => {
-    //meto el usuario en el objeto users
-    const playerName = user.playerName
-    data.gameData[playerName] = user
 
-    //Escribo el fichero con esos nuevos data
-    fs.writeFileSync(
-      "./src/database/gameData.json",
-      JSON.stringify(data, null, 2),
-      "utf8"
-    );
-
-    return getOneUserGameData(playerName)
-}
 const createOneUserGameData = (newUser) =>{
-    if (data["gameData"][`${newUser.playerName.replace(" ","").toLowerCase()}`]){
+    if (data["gameData"][`${newUser.playerName.replace(" ","")}`]){
         return false;
     }
-    let playerId = newUser.playerName.replace(" ","").toLowerCase();
-    data["gameData"][playerId] = newUser
+    let playerName = newUser.playerName.replace(" ","");
+    data["gameData"][playerName] = newUser
 
     fs.writeFileSync("./src/database/gameData.json", JSON.stringify(data,null,2), "utf8")
     return newUser; 
 }
 
 const updateOneUserGameData = (modUser) =>{
-    console.log(modUser)
+    
     
     if (!data["gameData"][`${modUser.playerName}`]){
         return false;
@@ -59,8 +46,7 @@ const deleteOneUserGameData = (name) => {
 
 module.exports = {
     getAllUsersGameData,
-    getOneUserGameData,
-    insertUserGameData,
+    getOneUserGameData,    
     createOneUserGameData,
     updateOneUserGameData,
     deleteOneUserGameData,

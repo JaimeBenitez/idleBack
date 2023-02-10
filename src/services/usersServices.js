@@ -19,7 +19,7 @@ const createOneUser = (user) => {
   };
 
   // Llamo al Modelo para realizar esa interacción con la BDD
-  const insertedUser = usersModel.insertUser(newUser)
+  const insertedUser = usersModel.createOneUser(newUser)
   
   if(!insertedUser) return false
   return insertedUser

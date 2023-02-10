@@ -12,6 +12,46 @@
       "id": "5418ce92-f1d5-4391-b091-5b14f161cc8f",
       "registerDate": "7/2/2023",
       "modDate": "7/2/2023"
+    },
+    "CarlinoGordo": {
+      "username": "CarlinoGordo",
+      "email": "gorditoSabroson@gmail.com",
+      "password": "Gordito_33",
+      "id": "9f8f9be9-bb4f-4dbd-ae7e-ad71e9336fea",
+      "registerDate": "8/2/2023",
+      "modDate": "8/2/2023"
+    },
+    "Destroyer": {
+      "username": "Destroyer",
+      "email": "destructor@DeMundos.com",
+      "password": "Destruye_50",
+      "id": "ef4ef5bb-7e00-4d72-89ce-0c3933fce558",
+      "registerDate": "8/2/2023",
+      "modDate": "8/2/2023"
+    },
+    "eveline": {
+      "username": "eveline",
+      "email": "eve@gmail.com",
+      "password": "Evelina_33",
+      "id": "6ac0598d-ffdc-4837-a0da-899cc993c99a",
+      "registerDate": "8/2/2023",
+      "modDate": "8/2/2023"
+    },
+    "betatester": {
+      "username": "betatester",
+      "email": "testeador@test.com",
+      "password": "Tester_01",
+      "id": "77c17fde-fa23-4f4b-ad9d-427d4bacc38d",
+      "registerDate": "8/2/2023",
+      "modDate": "8/2/2023"
+    },
+    "garrote": {
+      "username": "garrote",
+      "email": "garrote@gmail.com",
+      "password": "Garrote_33",
+      "id": "ed791d87-b070-43d5-a9a5-8f03853564ab",
+      "registerDate": "9/2/2023",
+      "modDate": "9/2/2023"
     }
   }
 }
