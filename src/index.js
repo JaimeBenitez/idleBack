@@ -4,7 +4,7 @@ const cors = require("cors")
 const rutasV1 = require("./routes/v1/indexRoutes")
 
 app.use(cors({
-  origin: 'idle-dev.netlify.app'
+  origin: '*'
 }))
 app.use(express.json())
 app.use("/api/v1", rutasV1.router)
