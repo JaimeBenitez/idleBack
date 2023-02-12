@@ -1,23 +1,7 @@
 {
   "gameData": {
-    "baldy_dev": {
-      "playerName": "baldy_dev",
-      "principalMoney": 37613.10970207647,
-      "HTMLAmount": 66,
-      "HTMLUnlocked": true,
-      "CSSAmount": 16,
-      "CSSUnlocked": true,
-      "JSAmount": 3,
-      "JSUnlocked": true,
-      "NodeAmount": 1,
-      "NodeUnlocked": true,
-      "JavaAmount": 0,
-      "JavaUnlocked": false,
-      "PHPAmount": 0,
-      "PHPUnlocked": false
-    },
-    "Destroyer": {
-      "playerName": "Destroyer",
+    "Carlos": {
+      "playerName": "Carlos",
       "principalMoney": 0,
       "HTMLAmount": 0,
       "HTMLUnlocked": false,
@@ -32,13 +16,29 @@
       "PHPAmount": 0,
       "PHPUnlocked": false
     },
-    "CarlinoGordo": {
-      "playerName": "CarlinoGordo",
-      "principalMoney": 4.4,
-      "HTMLAmount": 0,
+    "Chorat": {
+      "playerName": "Chorat",
+      "principalMoney": 6153.905843247838,
+      "HTMLAmount": 72,
       "HTMLUnlocked": true,
-      "CSSAmount": 0,
-      "CSSUnlocked": false,
+      "CSSAmount": 20,
+      "CSSUnlocked": true,
+      "JSAmount": 3,
+      "JSUnlocked": true,
+      "NodeAmount": 1,
+      "NodeUnlocked": true,
+      "JavaAmount": 0,
+      "JavaUnlocked": false,
+      "PHPAmount": 0,
+      "PHPUnlocked": false
+    },
+    "baldy_dev": {
+      "playerName": "baldy_dev",
+      "principalMoney": 32.21000000000005,
+      "HTMLAmount": 1,
+      "HTMLUnlocked": true,
+      "CSSAmount": 1,
+      "CSSUnlocked": true,
       "JSAmount": 0,
       "JSUnlocked": false,
       "NodeAmount": 0,
@@ -48,24 +48,8 @@
       "PHPAmount": 0,
       "PHPUnlocked": false
     },
-    "betatester": {
-      "playerName": "betatester",
-      "principalMoney": 0.6,
-      "HTMLAmount": 0,
-      "HTMLUnlocked": false,
-      "CSSAmount": 0,
-      "CSSUnlocked": false,
-      "JSAmount": 0,
-      "JSUnlocked": false,
-      "NodeAmount": 0,
-      "NodeUnlocked": false,
-      "JavaAmount": 0,
-      "JavaUnlocked": false,
-      "PHPAmount": 0,
-      "PHPUnlocked": false
-    },
-    "Carlos": {
-      "playerName": "Carlos",
+    "mila": {
+      "playerName": "mila",
       "principalMoney": 0,
       "HTMLAmount": 0,
       "HTMLUnlocked": false,

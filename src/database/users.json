@@ -39,6 +39,22 @@
       "id": "655ec58e-9165-41ef-bdc0-1fbb9b9fcbb8",
       "registerDate": "10/2/2023",
       "modDate": "10/2/2023"
+    },
+    "Chorat": {
+      "username": "Chorat",
+      "email": "chorat@gmail.com",
+      "password": "9fc47623ac9212c79284e1e6e2888d4631982680",
+      "id": "60d1f934-1644-4251-8832-098e55aac7e3",
+      "registerDate": "10/2/2023",
+      "modDate": "10/2/2023"
+    },
+    "mila": {
+      "username": "mila",
+      "email": "mila50@gmail.com",
+      "password": "70339367d42bdfb065c5e0e4af1e97b35822ba8e",
+      "id": "1d26746e-4caf-4c69-86d0-9c9007c44ded",
+      "registerDate": "10/2/2023",
+      "modDate": "10/2/2023"
     }
   }
 }

@@ -47,7 +47,7 @@ const getOneUser = (req, res, next) => {
   next()
 };
 
-// /api/v1/Useros/:user
+// /api/v1/users/:user
 const updateOneUser = (req, res, next) => {
   let { user } = req.params
   let { body } = req
